@@ -1,11 +1,12 @@
+## Obfuscation Challenge Writeup
 These challenges were created as a capstone project for my Malware Analysis and Response class.  Below is the subbmitted writeup (which needs to be better edited at a later date).  
 
-Challenge 1:
-This is challenge 1 of 4 challenges. All challenges are in Capstone.7. You should find three
-python files and two images. The SHA1 hash for the zipped file will be:
-01fcbd5bdecb7bd54a9affdb90e64ca06f0a7453
+Please note that in Challenge 2, you start with the two images Ch2-cat1.jpg and ch2-cat2.jpg.  The challenge two code challenge_2.py is posted in case one is unable to extract the code from the image.  
+Edit note: add picture by drag and dropping
 
-Once we’ve unzipped the file, we can cat challenge_1.py and look at the code.
+## Challenge 1:
+
+To start, we can cat challenge_1.py and look at the code.
 
 For challenge 1, the goal is to find the correct password that will give us the message: “correct,
 you have completed challenge 1”.
@@ -44,7 +45,8 @@ password cant_catch_me
 Let’s test our password to ensure we have the right password:
 
 Now we have our message, we have now completed challenge 1.
-Challenge 2:
+
+## Challenge 2:
 For challenge 2, we have been given two images: ch2-cat1.jpg and ch-2cat2.jpg. 
 One of these images has another file- challenge_2.py -embedded into it using Steganography.
 Steganography is a method of hiding another file within another- commonly an image or audio
@@ -83,7 +85,8 @@ backward through the alphabet, so it should be –16
 We have the password “itsnothalloween”, and if we run it through the program
 
 We received the “passed challenge 2” message and completed the challenge.
-Challenge 3:
+
+## Challenge 3:
 In challenge 3, when we cat the file, we see this:
 
 This is morse code, something we’re probably familiar with from spy movies where people tap
@@ -104,9 +107,7 @@ logical operation where it takes two inputs and determines if the input differs 
 determines if it is true or false. If we consider values A and B- if we XOR them, it will always be
 true. If XOR A with A and B with B, we will always output false. The XOR cipher is built on this
 principle.
-Madelyn Becker
-December 12, 2023
-MalWe can see that in the print function, we’re given an encrypted phrase
+We can see that in the print function, we’re given an encrypted phrase
 gocf`&/~gc|*fy/~go/lckh*ie}*lbnfcoamj*< for us to solve.
 We are given three pieces of information, the variable cat, and two definitions- tobinary and
 crossed. We can see that crossed calls for cat and a, and uses ^.
@@ -124,7 +125,7 @@ find our solution: hello, this is the flag for challenge 3.
 
 Challenge 3 is now completed.
 
-Challenge 4:
+## Challenge 4:
 In challenge 4, we will be looking at some malware obfuscation techniques such as flow control
 and dead code insertion. These techniques are used to confuse reverse engineers in
 understanding the code execution.
