@@ -46,6 +46,7 @@ password cant_catch_me
 ![ch1-password](https://github.com/M-BECKER2/Code-Obfuscation-Challenge/assets/163598094/2b655206-5e23-4c9b-8695-50ffbb1e60b2)
 
 Let’s test our password to ensure we have the right password:
+
 ![ch1-correct](https://github.com/M-BECKER2/Code-Obfuscation-Challenge/assets/163598094/89a2d58c-fc5a-4e3e-89cb-0f13a69874d1)
 
 Now we have our message, we have now completed challenge 1.
