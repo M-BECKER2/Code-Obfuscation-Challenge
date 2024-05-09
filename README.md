@@ -7,7 +7,7 @@ Edit note: add picture by drag and dropping
 ## Challenge 1:
 
 To start, we can cat challenge_1.py and look at the code.
-![1](https://github.com/M-BECKER2/Code-Obfuscation-Challenge/assets/163598094/a8fe7ecf-6d34-485b-9560-f0617473ea30)
+![challenge 1](https://github.com/M-BECKER2/Code-Obfuscation-Challenge/assets/163598094/7e3f8b49-15a4-45e3-ba65-c5d1d710e47d)
 
 For challenge 1, the goal is to find the correct password that will give us the message: “correct, you have completed challenge 1”.
 Looking at the challenge_1.py code, we can see four encoded strings at in the first lines of the
@@ -20,8 +20,7 @@ this with Cyberchef (https://gchq.github.io/CyberChef/)
 Cyberchef is called the “Swiss Army knife”, and allows you both encode, decode, encrypt and
 decrypt strings, along with additional functions useful for IT purposes. For this challenge, we’re
 going to use From Base64 from options on the side menu.
-
-![2](https://github.com/M-BECKER2/Code-Obfuscation-Challenge/assets/163598094/485272bb-3a9f-4d65-b900-0579939ab9de)
+![base64-ch1](https://github.com/M-BECKER2/Code-Obfuscation-Challenge/assets/163598094/0bcd2f71-1a5b-497f-b0e2-5c5110f147ca)
 
 From carrot, we decode the string to read: 104,101,108,108,111,44,32,116,104,101,32,34.
 Right now, that’s not very useful, as it will give us the “incorrect, please try again” error.
