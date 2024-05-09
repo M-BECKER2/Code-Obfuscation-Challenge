@@ -30,6 +30,7 @@ num = ','.join(str(ord(c)) for c in user_input)
 The command ord gives us the Unicode number of the letter. So, the input is reformatted into
 decimal before being encoded.
 Using carrot, let’s go back to cyberchef, and this time we’ll also use the function from charcode:
+![ch1-charcode](https://github.com/M-BECKER2/Code-Obfuscation-Challenge/assets/163598094/f7c3ae65-641f-4d55-8944-fb224c469218)
 
 After changing the delimiter to comma and the base to 10 (decimal is base 10) we have the
 output of:
@@ -42,8 +43,10 @@ bean contains the password.
 
 Taking the string in the bean variable and putting into our cyberchef recipe, we find the
 password cant_catch_me 
+![ch1-password](https://github.com/M-BECKER2/Code-Obfuscation-Challenge/assets/163598094/2b655206-5e23-4c9b-8695-50ffbb1e60b2)
 
 Let’s test our password to ensure we have the right password:
+![ch1-correct](https://github.com/M-BECKER2/Code-Obfuscation-Challenge/assets/163598094/89a2d58c-fc5a-4e3e-89cb-0f13a69874d1)
 
 Now we have our message, we have now completed challenge 1.
 
