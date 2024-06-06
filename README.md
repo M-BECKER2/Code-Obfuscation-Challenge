@@ -1,8 +1,9 @@
 ## Obfuscation Challenge Writeup
 These challenges were created as a capstone project for my Malware Analysis and Response class.  Below is the subbmitted writeup (which needs to be better edited at a later date).  
 
-Please note that in Challenge 2, you start with the two images Ch2-cat1.jpg and ch2-cat2.jpg.  The challenge two code challenge_2.py is posted in case one is unable to extract the code from the image.  
-Edit note: add picture by drag and dropping
+Please note that in Challenge 2, you start with the two images Ch2-cat1.jpg and ch2-cat2.jpg.  The challenge two code challenge_2.py is posted in case one is unable to extract the code from the image.
+Secondly, Challenge 3 has an error that will prevent it from being solved.  For now, the flawed code will remain up, for any who wish to determine what the issue is.  And in my defense of this error, this code was written during my finals, sleep was not with me.   
+
 
 ## Challenge 1:
 
