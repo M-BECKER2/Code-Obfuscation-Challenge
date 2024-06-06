@@ -124,10 +124,12 @@ variables (var1, var2, var3, and var4) at the top of the code to make life easie
 are several functions of encryption processes already seen in the previous challenges, and one
 of these functions contains the correct secret as well.
 After opening the source code, you can see at the bottom several nested if statements.
+
 ![ch4 nested](https://github.com/M-BECKER2/Code-Obfuscation-Challenge/assets/163598094/1c5704b9-b090-48c5-aaa7-8d5052e4ed05)
 
 
 If we input a random string, we can see we receive the message “This is not the correct secret”
+
 ![ch4 incorrect](https://github.com/M-BECKER2/Code-Obfuscation-Challenge/assets/163598094/77c5d6fa-9a26-46b2-b2ce-ee108b19aeb7)
 
 
@@ -151,9 +153,11 @@ another rot13 was executed 2 lines up, just before the if statement. ROT13, if d
 return the original string after the second round, so base2 just encoded the plaintext userinput.
 We can also see that var2, the correct secret, was encoded as well.
 Let’s take a look at base2:
+
 ![ch4 code 2](https://github.com/M-BECKER2/Code-Obfuscation-Challenge/assets/163598094/039f417f-6b42-4753-a482-66d1cf81b46a)
 
 We can see that the userinput is encoded with base64. If we use cyberchef to decode secret.
+
 ![ch4 final cyber](https://github.com/M-BECKER2/Code-Obfuscation-Challenge/assets/163598094/3bd2d5b0-ab6e-4d9a-82d3-87c64db9eaa0)
 
 We can confirm that base64 is the encoding function used. Challenge 4 is completed.
