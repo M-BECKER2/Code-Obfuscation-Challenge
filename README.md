@@ -72,7 +72,7 @@ Command: strings <filename>
 
 Strings can give us useful data such as exifdata or other hidden data within the image. In this
 case, we found a string password=finally in cat1.jpg. Let’s try that and see if that’s our
-passphase.
+passphrase.
 
 ![ch2-strings](https://github.com/M-BECKER2/Code-Obfuscation-Challenge/assets/163598094/35121335-20ec-4b14-b7a1-8aea627ce443)
 
